@@ -1,8 +1,7 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import HowItWorks from './components/HowItWorks'
-import BusinessModel from './components/BusinessModel'
-import Contact from './components/Contact'
+import { Comparison, BusinessModel, Financials, Impact, Contact, Footer } from './components/Sections'
 
 export default function Home() {
   return (
@@ -10,8 +9,12 @@ export default function Home() {
       <Navbar />
       <Hero />
       <HowItWorks />
+      <Comparison />
       <BusinessModel />
+      <Financials />
+      <Impact />
       <Contact />
+      <Footer />
     </main>
   )
 }
