@@ -8,7 +8,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <span className="text-xl font-bold tracking-wider text-amber-400">SENTIA</span>
         <div className="hidden md:flex gap-8 text-sm text-gray-300">
-          <a href="#how" className="hover:text-white transition">How it works</a>
+          <a href="/demo" className="hover:text-white transition">How It Works</a>
           <a href="#business" className="hover:text-white transition">Business</a>
           <a href="#contact" className="hover:text-white transition">Contact</a>
         </div>
