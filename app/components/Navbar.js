@@ -16,7 +16,7 @@ export default function Navbar() {
       </div>
       {open && (
         <div className="md:hidden bg-black border-t border-white/10 px-6 py-4 flex flex-col gap-4 text-sm text-gray-300">
-          <a href="#how" onClick={() => setOpen(false)}>How it works</a>
+          <a href="/demo" onClick={() => setOpen(false)}>How it works</a>
           <a href="#business" onClick={() => setOpen(false)}>Business</a>
           <a href="#contact" onClick={() => setOpen(false)}>Contact</a>
         </div>
